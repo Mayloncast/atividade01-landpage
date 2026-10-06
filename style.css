@@ -1,0 +1,194 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffdf5;
+    color: #333;
+}
+
+
+header {
+    background-color: #2e7d32;
+    color: white;
+
+    padding: 20px 8%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+}
+
+
+.classe {
+    min-height: 500px;
+
+    padding: 60px 8%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #e8f5e9,
+        #fffde7
+    );
+}
+
+.classe-texto {
+    max-width: 550px;
+}
+
+.classe h2 {
+    font-size: 48px;
+    color: #1b5e20;
+    margin-bottom: 20px;
+}
+
+.classe p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.classe-frutas {
+    font-size: 120px;
+}
+
+
+/* Botão */
+
+.botao {
+    display: inline-block;
+
+    background-color: #f57c00;
+    color: white;
+
+    padding: 14px 25px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #e65100;
+}
+
+
+.produtos {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.produtos h2,
+.sobre h2,
+.contato h2 {
+    color: #2e7d32;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+
+    width: 250px;
+
+    padding: 30px 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+
+.emoji {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.card strong {
+    color: #f57c00;
+    font-size: 18px;
+}
+
+
+.sobre {
+    padding: 70px 8%;
+    background-color: #e8f5e9;
+}
+
+.sobre div {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.sobre p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+
+.contato {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.contato p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+footer p {
+    margin: 5px;
+}
+
